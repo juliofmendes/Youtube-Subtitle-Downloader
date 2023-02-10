@@ -10,7 +10,7 @@ O Youtube_Subtitle_Downloader primeiro verifica se a URL fornecida corresponde a
 </details>
 
 #### Screenshots
-<img src="https://github.com/juliofmendes/Autocheck-M3U-List/blob/main/Screenshot_03.png?raw=true" width="30%" height="30%">     <img src="https://github.com/juliofmendes/Autocheck-M3U-List/blob/main/Screenshot_01.png?raw=true" width="30%" height="30%">     <img src="https://github.com/juliofmendes/Autocheck-M3U-List/blob/main/Screenshot_02.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/juliofmendes/Youtube-Subtitle-Downloader/blob/main/Screenshot_01.png?raw=true" width="30%" height="30%">     <img src="https://github.com/juliofmendes/Youtube-Subtitle-Downloader/blob/main/Screenshot_02.png?raw=true" width="30%" height="30%">
 
 
 
@@ -57,16 +57,16 @@ To install the "youtube_dl" library, you can use the following command:
 
 ## Changelog
 
-##### V1.8 - Implementado a criação automática para `Legendas`,`[Videos]`,`Playlist` caso elas não exista. Adicionado o salvamento inteligente para as pastas [Videos] e Playlist, criando uma pasta interna com o ID do link. Restruturado o codigo para funcionar com duas funções, `verificar_link(link_url)` e `download_subtitle(link_url)`.
+##### V1.8 - Implemented automatic creation for `Legendas`,`[Videos]`,`Playlist` if they do not exist. Added smart saving for the [Videos] and Playlist folders, creating an internal folder with the link ID. Restructured the code to work with two functions, `verificar_link(link_url)` e `download_subtitle(link_url)`.
+
   <details>
-  <summary>Versões Antigas</summary>
+  <summary>Previous Versions</summary>
 
+V1.7 - Implemented automatic selection between the playlist video link and simple videos for download. Subtitles are now saved in the playlist folder.
 
-V1.7 - Implementada seleção automática entre o link de videos da playlist e videos simples para download. Agora as legendas salvas na pasta pasta da playlist.
+V1.5 - Structured the function for reading YouTube lists. Changed the SRT extension to `VTT`. Adjustment in the naming of saving `title.[id].ext.vtt`.
 
-V1.5 - Estruturada a função para a leitura de Listas do youtube. Alterada a extensão de SRT para `VTT`. Ajuste na nomeclatura de salvamento `title.[id].ext.vtt`
+V1.3 - Added the function of creating the `Legendas` folder, saving the subtitle inside the folder. Restricted the download of automatically generated subtitles. Added the possibility of the `EN` language in addition to PT-BR. Implemented the subtitle naming format `nome[id].ling.srt`.
 
-V1.3 - Adicionada a função de criar a pasta `legendas`, salva a legenda dentro da pasta. Restringido o download das legendas geradas automáticamente. Adicionada a possibilidade da liguagem `EN` além da para PT-BR. Implementado a nomeclatura para a legenda no formato `nome[id].ling.srt`.
-
-V1.0 - Básico e inicial. Salva a legenda em `PT-BR` do video na pasta do arquivo.
+V1.0 - Basic and initial. Saves the `PT-BR` subtitle of the video in the file folder.
 </details>
