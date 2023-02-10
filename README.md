@@ -31,11 +31,6 @@ To install the "youtube_dl" library, you can use the following command:
 
 ### How to use
 
-1. Execute no terminal: `python3 .../Youtube_Subtitle_Downloader/YouSubDL[1.8].py`
-2. Cole ou digite o `link` do Video ou Playlist
-3. Verifique as legendas na pasta `Legendas`
-
-
 1. Access the program folder: cd Youtube_Subtitle_Downloader
 2. Run the YouSubDL[1.8].py file in the terminal: `python3 YouSubDL[1.8].py`
 3. Enter the link of the video or playlist to be downloaded.
@@ -58,7 +53,11 @@ To install the "youtube_dl" library, you can use the following command:
 
 
 ## ToDo
-* [ ] 
+* [ ] Add an error check (if statement) after the end of the context manager to handle cases where the download was not successful.
+* [ ] Treatment in case the link is not from YouTube.
+* [ ] Colors and text (visual).
+* [ ] Improve speed
+* [ ] Connection with Google Drive
 
 
 
