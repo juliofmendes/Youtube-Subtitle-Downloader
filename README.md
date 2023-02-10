@@ -57,7 +57,7 @@ To install the "youtube_dl" library, you can use the following command:
 
 ## Changelog
 
-#### V1.8 - Implementado a criação automática para `Legendas`,`[Videos]`,`Playlist` caso elas não exista. Adicionado o salvamento inteligente para as pastas [Videos] e Playlist, criando uma pasta interna com o ID do link. Restruturado o codigo para funcionar com duas funções, `verificar_link(link_url)` e `download_subtitle(link_url)`.
+##### V1.8 - Implementado a criação automática para `Legendas`,`[Videos]`,`Playlist` caso elas não exista. Adicionado o salvamento inteligente para as pastas [Videos] e Playlist, criando uma pasta interna com o ID do link. Restruturado o codigo para funcionar com duas funções, `verificar_link(link_url)` e `download_subtitle(link_url)`.
   <details>
   <summary>Versões Antigas</summary>
 
