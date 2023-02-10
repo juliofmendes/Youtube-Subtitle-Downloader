@@ -1,0 +1,25 @@
+
+# TODO LIST #
+
+- Adicionar um verificação de erro (if statement) após o fim do context manager para tratar casos em que o download não tenha sido bem-sucedido.
+- Tratamento para caso o link não seja do youtube.
+- Cores e texto (visual).
+- Aperfeiçoar a Velocidade
+- Conexão com Google Drive
+
+
+# CHANGELOG #
+
+V1.8 - Implementada a criação automática de Legendas,[Vídeos],Playlists caso eles não existam. Adicionado o salvamento inteligente para as pastas [Vídeos] e Playlists, criando uma pasta interna com o ID do link. Reestruturado o código para trabalhar com duas funções, verificar_link(link_url) e download_subtitle(link_url).
+
+
+V1.7 - Implementada a seleção automática entre o link de vídeo da playlist e vídeos simples para download. As legendas agora são salvas na pasta da playlist.
+
+
+V1.5 - Estruturada a função de leitura de listas do YouTube. Mudou a extensão SRT para VTT. Ajuste no nomeação de salvamento título.[id].ext.vtt.
+
+
+V1.3 - Adicionada a função de criar a pasta Legendas, salvando a legenda dentro da pasta. Restrito o download de legendas geradas automaticamente. Adicionada a possibilidade do idioma EN além do PT-BR. Implementado o formato de nomeação de legendas nome[id].ling.srt.
+
+
+V1.0 - Básico e inicial. Salva a legenda PT-BR do vídeo na pasta do arquivo.
