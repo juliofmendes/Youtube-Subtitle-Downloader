@@ -23,7 +23,7 @@ O Youtube_Subtitle_Downloader primeiro verifica se a URL fornecida corresponde a
 
 
 ### Install the "youtube_dl" library
-o run this code, you need to have the "youtube_dl" library installed and have write permission in the system directory where the code will be executed. Additionally, you need an internet connection for the code to download the YouTube subtitles. 
+to run this code, you need to have the "youtube_dl" library installed and have write permission in the system directory where the code will be executed. Additionally, you need an internet connection for the code to download the YouTube subtitles. 
 To install the "youtube_dl" library, you can use the following command: 
 `pip install youtube-dl`
 
