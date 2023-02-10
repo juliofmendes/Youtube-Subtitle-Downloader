@@ -10,7 +10,7 @@ O Youtube_Subtitle_Downloader primeiro verifica se a URL fornecida corresponde a
 </details>
 
 #### Screenshots
-<img src="https://github.com/juliofmendes/Youtube-Subtitle-Downloader/blob/main/Screenshot_01.png?raw=true" width="30%" height="30%">     <img src="https://github.com/juliofmendes/Youtube-Subtitle-Downloader/blob/main/Screenshot_02.png?raw=true" width="30%" height="30%">
+<img src="https://github.com/juliofmendes/Youtube-Subtitle-Downloader/blob/main/Screenshot_01.png?raw=true" width="45%" height="45%">      <img src="https://github.com/juliofmendes/Youtube-Subtitle-Downloader/blob/main/Screenshot_02.png?raw=true" width="45%" height="45%">
 
 
 
@@ -64,7 +64,7 @@ To install the "youtube_dl" library, you can use the following command:
 
 ## Changelog
 
-##### V1.8 - Implemented automatic creation for `Legendas`,`[Videos]`,`Playlist` if they do not exist. Added smart saving for the [Videos] and Playlist folders, creating an internal folder with the link ID. Restructured the code to work with two functions, `verificar_link(link_url)` e `download_subtitle(link_url)`.
+>  **V1.8** - Implemented automatic creation for `Legendas`,`[Videos]`,`Playlist` if they do not exist. Added smart saving for the [Videos] and Playlist folders, creating an internal folder with the link ID. Restructured the code to work with two functions, `verificar_link(link_url)` e `download_subtitle(link_url)`.
 
   <details>
   <summary>Previous Versions</summary>
