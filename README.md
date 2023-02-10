@@ -30,9 +30,9 @@ To install the "youtube_dl" library, you can use the following command:
 
 ### How to use
 
-1. Copie uma ou mais listas M3U (`.m3u`) para a pasta `Listas_Novas`;
-2. Execute o comando `python Autocheck_m3u.py` no terminal;
-3. Siga as orientações do programa.
+1. Execute no terminal: `python3 .../Youtube_Subtitle_Downloader/YouSubDL[1.8].py`
+2. Cole ou digite o `link` do Video ou Playlist
+3. Verifique as legendas na pasta `Legendas`
 
 
 
@@ -57,11 +57,16 @@ To install the "youtube_dl" library, you can use the following command:
 
 ## Changelog
 
-#### V1.8 - Tratamento na captura do nome sem virgula. Correção do erro.
+#### V1.8 - Implementado a criação automática para `Legendas`,`[Videos]`,`Playlist` caso elas não exista. Adicionado o salvamento inteligente para as pastas [Videos] e Playlist, criando uma pasta interna com o ID do link. Restruturado o codigo para funcionar com duas funções, `verificar_link(link_url)` e `download_subtitle(link_url)`.
   <details>
   <summary>Versões Antigas</summary>
 
-V2.7 - melhorada a captura para as tags na m3u e salvamento, agora sem erro. Resolvido o problema de salvamento dos arquivos offline na lista. Retirado a repetição do ultimo item.
 
-V1.0 - Básico e inicial.  
+V1.7 - Implementada seleção automática entre o link de videos da playlist e videos simples para download. Agora as legendas salvas na pasta pasta da playlist.
+
+V1.5 - Estruturada a função para a leitura de Listas do youtube. Alterada a extensão de SRT para `VTT`. Ajuste na nomeclatura de salvamento `title.[id].ext.vtt`
+
+V1.3 - Adicionada a função de criar a pasta `legendas`, salva a legenda dentro da pasta. Restringido o download das legendas geradas automáticamente. Adicionada a possibilidade da liguagem `EN` além da para PT-BR. Implementado a nomeclatura para a legenda no formato `nome[id].ling.srt`.
+
+V1.0 - Básico e inicial. Salva a legenda em `PT-BR` do video na pasta do arquivo.
 </details>
