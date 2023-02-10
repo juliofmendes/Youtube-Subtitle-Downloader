@@ -19,6 +19,7 @@ O Youtube_Subtitle_Downloader primeiro verifica se a URL fornecida corresponde a
 
 
 ### Download the code:
+Download or Clone the Github repository:
 `git clone git@github.com:juliofmendes/Youtube_Subtitle_Downloader.git`
 
 
@@ -33,6 +34,13 @@ To install the "youtube_dl" library, you can use the following command:
 1. Execute no terminal: `python3 .../Youtube_Subtitle_Downloader/YouSubDL[1.8].py`
 2. Cole ou digite o `link` do Video ou Playlist
 3. Verifique as legendas na pasta `Legendas`
+
+
+1. Access the program folder: cd Youtube_Subtitle_Downloader
+2. Run the YouSubDL[1.8].py file in the terminal: `python3 YouSubDL[1.8].py`
+3. Enter the link of the video or playlist to be downloaded.
+4. Wait for the subtitle download process.
+5. Check the subtitles in the automatically created Legendas folder.
 
 
 
